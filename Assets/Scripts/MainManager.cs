@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class MainManager : MonoBehaviour
@@ -31,5 +32,11 @@ public class MainManager : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+    }
+
+    [System.Serializable]
+    class SaveData
+    {
+        public Color TeamColor;
     }
 }
