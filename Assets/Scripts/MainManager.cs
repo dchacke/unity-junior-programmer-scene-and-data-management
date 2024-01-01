@@ -6,6 +6,8 @@ public class MainManager : MonoBehaviour
 {
     public static MainManager Instance;
 
+    public Color TeamColor;
+
     private void Awake()
     {
         // Ensure singleton
