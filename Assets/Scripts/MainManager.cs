@@ -8,6 +8,7 @@ public class MainManager : MonoBehaviour
 
     public Color TeamColor;
 
+    // Called each time the menu scene is opened
     private void Awake()
     {
         // Ensure singleton
