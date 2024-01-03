@@ -21,7 +21,7 @@ public class MainManager : MonoBehaviour
         // to any game object? Then you don't need to worry about
         // destroying duplicate instances (there are NO instances),
         // and you can still store your data and access it from
-        // anywhere. You won't even need DonDestroyOnLoad.
+        // anywhere. You won't even need DontDestroyOnLoad.
         // I'm a Unity noob but this strikes me as code smell.
         // OOP isn't all that.
         if (Instance != null)
